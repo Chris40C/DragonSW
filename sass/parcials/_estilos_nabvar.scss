@@ -1,0 +1,31 @@
+.bg-dark{
+    background-color: rgba(0, 0, 0, 0.329) !important;
+}
+#navbarNavAltMarkup{
+    justify-content: center;
+}
+
+.logo-vector{
+    height: 50px;
+    width: auto;
+}
+
+.navbar, .navbar-brand{
+    padding: 0;
+}
+
+.nav-link{
+    &:hover{
+        color: rgb(88, 197, 25) !important;
+    }
+}
+.active{
+    display: inline-block;
+    border: 1px solid #fff;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 3px;
+    padding: 2px 15px;
+    text-decoration: none;
+    margin-top: 5px;
+}

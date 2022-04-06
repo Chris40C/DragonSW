@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.bodybg {
+  background-image: url(https://i.ibb.co/h1SPvpn/backgroundpexels.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
+.bg-dark {
+  background-color: rgba(0, 0, 0, 0.329) !important; }
+
+#navbarNavAltMarkup {
+  justify-content: center; }
+
+.logo-vector {
+  height: 50px;
+  width: auto; }
+
+.navbar, .navbar-brand {
+  padding: 0; }
+
+.nav-link:hover {
+  color: #58c519 !important; }
+
+.active {
+  display: inline-block;
+  border: 1px solid #fff;
+  font-size: 14px;
+  line-height: 24px;
+  border-radius: 3px;
+  padding: 2px 15px;
+  text-decoration: none;
+  margin-top: 5px; }
+
+.mt-5 {
+  margin-top: 10rem !important; }
+
+h1 {
+  padding: 0 10px;
+  font-family: 'Cantarell', sans-serif;
+  text-align: center;
+  font-weight: 300;
+  color: #efecec;
+  font-size: 34px; }

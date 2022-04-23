@@ -12,6 +12,10 @@
         border-radius: 0 !important;
         transition: none !important;
     }
+
+    #logovector{
+        width: 50% !important;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -31,6 +35,9 @@
     .responsivefootericons{
         display: none;
     }
+    #logovector{
+        width: 70% !important;
+    }
 
     .lotoftext{
         padding: 1cm 1cm !important;
@@ -38,5 +45,11 @@
 
     .galeria{
         grid-template-columns: 1fr 1fr !important;
+    }
+
+    .submit-btn {
+        width:100%;
+        float: none;
+        text-align:center;
     }
       }

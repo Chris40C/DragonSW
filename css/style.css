@@ -4,14 +4,14 @@
   box-sizing: border-box; }
 
 .bodybg {
-  background-image: url(https://i.ibb.co/h1SPvpn/backgroundpexels.jpg);
+  background-image: url(../../images/bgweb.jpg);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat; }
 
 .bg-dark {
-  background-color: rgba(0, 0, 0, 0.329) !important; }
+  background-color: rgba(0, 0, 0, 0) !important; }
 
 #navbarNavAltMarkup {
   justify-content: center; }
@@ -24,7 +24,7 @@
   padding: 0; }
 
 .nav-link:hover {
-  color: #58c519 !important; }
+  color: #198754 !important; }
 
 .active {
   border: 1px solid #fff;
@@ -35,6 +35,9 @@
   text-decoration: none;
   margin-top: 5px; }
 
+.box-one {
+  padding-bottom: 60px; }
+
 .mt-5 {
   margin-top: 10rem !important; }
 
@@ -43,8 +46,38 @@ h1 {
   font-family: 'Cantarell', sans-serif;
   text-align: center;
   font-weight: 300;
-  color: #efecec;
+  color: #198754;
   font-size: 34px; }
+
+.webwithbgtext {
+  color: whitesmoke;
+  font-weight: 70;
+  text-align: justify;
+  padding: 30px;
+  font-family: 'Work Sans', sans-serif; }
+
+.btn {
+  font-weight: 500 !important; }
+
+/* ESTILOS PARA INDEX.HTML */
+/* Aplicando MIXIN DE SASS 2 */
+#imagen_caja2, #imagen_caja4 {
+  width: 50%; }
+
+.cajawidth100, .contenedortext {
+  padding: 40px 20px;
+  line-height: 30px; }
+
+.cajasconimg {
+  background-color: black;
+  display: flex;
+  color: white;
+  text-align: center;
+  align-items: center; }
+  .cajasconimg .caja1 {
+    flex-direction: row-reverse; }
+  .cajasconimg .caja2 {
+    flex-direction: row !important; }
 
 @media screen and (max-width: 991px) {
   .navbar-nav {
@@ -58,8 +91,20 @@ h1 {
     transition: none !important; } }
 
 @media only screen and (max-width: 767px) {
-  body {
-    background-image: url(../../images/bgweb-mobile.jpg); } }
+  .cajasconimg {
+    flex-direction: column-reverse;
+    padding-bottom: 10px; }
+  #imagen_caja2, #imagen_caja4 {
+    width: 90%;
+    height: auto; }
+  .col-md-3 .card {
+    margin-bottom: 20px; }
+  .responsivefootericons {
+    display: none; }
+  .lotoftext {
+    padding: 1cm 1cm !important; }
+  .galeria {
+    grid-template-columns: 1fr 1fr !important; } }
 
 .bg-footer {
   background-color: rgba(0, 0, 0, 0.329); }
@@ -71,14 +116,114 @@ h1 {
   padding: 10px 30px !important;
   column-gap: 30px !important; }
 
-.fa-brands {
-  padding-right: 10px !important; }
-
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 10px; }
+.nav-item .fa-brands {
+  padding-right: 10px !important;
+  font-size: 30px; }
 
 .my-4 {
   margin-bottom: 0 !important; }
+
+.pb-4 {
+  margin-bottom: 0 !important; }
+
+.nav-link {
+  display: flex;
+  gap: 0 !important;
+  align-items: center; }
+
+.responsivefootericons {
+  margin-bottom: 0rem  !important; }
+
+/* ESTILOS PARA PAGINA RUTINAS.HTML */
+.container {
+  width: 100%; }
+
+.card-text {
+  font-size: 15px; }
+
+.boton {
+  background-color: #198754;
+  border: 0; }
+  .boton:hover {
+    background-color: white;
+    color: black; }
+
+.card {
+  border-color: #198754; }
+
+.card-img-top {
+  height: 180px; }
+
+.card-body {
+  text-align: center;
+  background-color: black; }
+
+.card-text {
+  color: white; }
+
+.card-title {
+  color: #198754; }
+
+/* ESTILOS PARA PAGINA GUIAS.HMTL */
+.caja-guias {
+  background: #e30909;
+  background: linear-gradient(90deg, #e30909 1%, #080e4d 100%);
+  color: #ffffff;
+  margin-bottom: 20px; }
+
+.available {
+  background-color: #198754; }
+
+.notavailable {
+  background-color: rgba(235, 59, 5, 0.767); }
+
+.nodescargable {
+  background-color: red !important; }
+  .nodescargable:hover {
+    color: white !important; }
+
+.boton {
+  background-color: #198754;
+  border: 0; }
+  .boton:hover {
+    background-color: white;
+    color: black; }
+
+#logovector {
+  width: 30%;
+  height: auto; }
+
+.accordion-button {
+  background-color: black; }
+
+.accordion-item {
+  background-color: #fff;
+  border: 0px; }
+
+.accordion-button:not(.collapsed), .accordion-body {
+  color: white;
+  background-color: black;
+  border-bottom: 0ch; }
+
+.accordion-button:focus {
+  border-color: black !important; }
+
+.textaccordion {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3cm;
+  padding-bottom: 3cm; }
+
+.lotoftext {
+  text-justify: inter-word;
+  padding: 1cm 3cm;
+  font-size: 20px;
+  font-family: 'Work Sans', sans-serif; }
+
+.galeria {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; }
+
+.imagen_galeria {
+  width: 100%;
+  height: 300px; }

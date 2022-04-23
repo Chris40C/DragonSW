@@ -1,5 +1,5 @@
 .bg-dark{
-    background-color: rgba(0, 0, 0, 0.329) !important;
+    background-color: rgba(0, 0, 0, 0) !important;
 }
 #navbarNavAltMarkup{
     justify-content: center;
@@ -16,7 +16,7 @@
 
 .nav-link{
     &:hover{
-        color: rgb(88, 197, 25) !important;
+        color: #198754 !important;
     }
 }
 .active{

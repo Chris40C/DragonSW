@@ -1,0 +1,32 @@
+/* ESTILOS PARA PAGINA GUIAS.HMTL */
+.caja-guias{
+    background: rgb(227,9,9);
+    background: linear-gradient(90deg, rgba(227,9,9,1) 1%, rgba(8,14,77,1) 100%);
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.available{
+    background-color: #198754;
+}
+
+.notavailable{
+    background-color: rgba(235, 59, 5, 0.767);
+    
+}
+
+.nodescargable{
+    background-color: red !important;
+    &:hover{
+        color: white !important;
+    }
+}
+
+.boton{
+    background-color: #198754;
+    border: 0;
+
+    &:hover{
+        background-color: white;
+        color: black;
+    }
+}

@@ -1,0 +1,47 @@
+#logovector{
+    width: 30%;
+    height: auto;
+}
+
+.accordion-button{
+    background-color: black;
+}
+
+.accordion-item {
+    background-color: #fff;
+    border: 0px;
+}
+
+.accordion-button:not(.collapsed), .accordion-body{
+    color: white;
+    background-color: black;
+    border-bottom: 0ch;
+}
+
+.accordion-button:focus{
+    border-color: black !important;
+}
+
+.textaccordion{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3cm;
+    padding-bottom: 3cm;
+}
+
+.lotoftext{
+    text-justify: inter-word;
+    padding: 1cm 3cm;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.imagen_galeria{
+    width: 100%;
+    height: 300px;
+}

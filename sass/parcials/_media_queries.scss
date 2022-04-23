@@ -15,7 +15,28 @@
 }
 
 @media only screen and (max-width: 767px) {
-    body {
-      background-image: url(../../images/bgweb-mobile.jpg);
+    .cajasconimg{
+        flex-direction: column-reverse;
+        padding-bottom: 10px;
+    }
+    #imagen_caja2, #imagen_caja4{
+        width: 90%;
+        height: auto;
+    }
+
+    .col-md-3 .card{
+        margin-bottom: 20px;
+    }
+
+    .responsivefootericons{
+        display: none;
+    }
+
+    .lotoftext{
+        padding: 1cm 1cm !important;
+    }
+
+    .galeria{
+        grid-template-columns: 1fr 1fr !important;
     }
       }

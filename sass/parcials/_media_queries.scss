@@ -15,6 +15,11 @@
 
     #logovector{
         width: 50% !important;
+
+    }
+
+    .imagen_galeria{
+        height: 220px !important;
     }
 }
 
@@ -45,6 +50,9 @@
 
     .galeria{
         grid-template-columns: 1fr 1fr !important;
+    }
+    .imagen_galeria{
+        height: 150px !important;
     }
 
     .submit-btn {

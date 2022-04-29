@@ -39,9 +39,19 @@
 .galeria{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    & div{
+        height: 300px;
+    }
 }
 
 .imagen_galeria{
     width: 100%;
-    height: 300px;
+    transition:all .5s ease-in-out;
+    margin: 0 auto;
 }
+
+.galeria div{
+    overflow:hidden;
+    &:hover .imagen_galeria {-webkit-transform:scale(1.3);transform:scale(1.3);}
+}
+

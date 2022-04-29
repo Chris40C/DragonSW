@@ -19,7 +19,7 @@
     }
 
     .imagen_galeria{
-        height: 220px !important;
+        height: 220px;
     }
 }
 
@@ -51,9 +51,7 @@
     .galeria{
         grid-template-columns: 1fr 1fr !important;
     }
-    .imagen_galeria{
-        height: 150px !important;
-    }
+    
 
     .submit-btn {
         width:100%;
